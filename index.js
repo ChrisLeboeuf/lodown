@@ -87,7 +87,7 @@ function first(array, number){
 
 
 /**
- * first: Designed to loop over an array and in turn return the last {Number} items of <array>
+ * last: Designed to loop over an array and in turn return the last {Number} items of <array>
  * If <array> is not an array, return []
  * If <number> is not given or not a number, return just the first element in <array>.
  * 
@@ -264,7 +264,7 @@ function reject(array, test){
  * An array that contains all falsy values from the function.
  * 
  * @param {Array} arr: The collection over which we are iterating.
- * @param {Function] funct: The Function to be applied to each value
+ * @param {Function} funct: The Function to be applied to each value
  * 
  * @return {Array}: An array containing 2 sub arrays: one containing truthy values and one containing the falsy values
  * 
